@@ -1,0 +1,4 @@
+Auckland South LiDAR - https://data.linz.govt.nz/layer/104318-auckland-south-lidar-1m-dem-2016-2017/
+Auckland North LiDAR - https://data.linz.govt.nz/layer/106410-auckland-north-lidar-1m-dem-2016-2018/
+NZ Buildings Footprints - https://data.linz.govt.nz/layer/101290-nz-building-outlines/
+NZ Powerline Centrelines -  https://data.linz.govt.nz/layer/50311-nz-powerline-centrelines-topo-150k/
