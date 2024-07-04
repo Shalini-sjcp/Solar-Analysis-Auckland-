@@ -10,5 +10,31 @@ The target areas identified for this project are the Auckland Airport Industrial
 The amount of solar radiation an area receives is subject to great variability through not only each day but annually and seasonally. In order to determine the amount of radiation the combined effects of direct, reflected and diffuse radiation needs to be calculated for each area and over the entire time period (ESRI, 2024). Ideal panel locations can be further narrowed down by choosing roofs that face up (low slope) and/or face north, as New Zealand is in the southern hemisphere this is the direction of most solar radiation (Khanna, 2024).
 
 ## Methodology
+### Criteria and Data
 The criteria used for the analysis is outlined in Table 1 and Table 2, while the datasets used is shown in Table 3.
 
+| Variable | Value/Criteria |
+|---|---|
+| Location | Within a target region |
+| Building Size | Buildings with a footprint area over 400 sqm |
+| Roof Aspect | Northerly aspect between 0-50 or 310-360 degrees (inclusive) |
+| Roof Angle | Roof slopes between 3-45 degrees (inclusive) |
+
+| Variable | Value/Criteria |
+|---|---|
+| Input | 1m DEM pre-masked to Building footprints |
+| Time | Whole year (2022) |
+| Hour Interval | 1 hour |
+| Calculation Directions | 16 |
+
+| Dataset | Type | Description |
+|---|---|---|
+| NZ Building | Polygon Feature Class | https://data.linz.govt.nz/layer/106410-auckland-north-lidar-1m-dem-2016-2018/ |
+| 1m LiDAR DEM Auckland South | .TIF Raster | https://data.linz.govt.nz/layer/104318-auckland-south-lidar-1m-dem-2016-2017/ |
+| 1m LiDAR DEM Auckland North | .TIF Raster | https://data.linz.govt.nz/layer/106410-auckland-north-lidar-1m-dem-2016-2018/ |
+| NZ Powerline Centrelines (1:50K) | Line Feature Class | https://data.linz.govt.nz/layer/50311-nz-powerline-centrelines-topo-150k/ |
+
+The main geoprocessing tool used in this analysis was the Area Solar Radiation (Spatial Analyst tool). It calculates the combined total of reflected, direct, and diffuse solar radiation over a given time period (ESRI, 2024). The tool was run over the year 2022 to get the annual solar radiation each cell received in that period, however it should be noted that the LINZ LiDAR DSM used is from 2016-2017 (Auckland South) and 2016-2018 (Auckland North) so this does not account for any changes to the landscapes after the time of data collection which will affect the accuracy of the calculates annual solar radiation. Besides the Area Solar Radiation tool, primarily raster processing and data management tools were used to find suitable cells for solar panels and calculations. 
+
+To get the average energy produced per building the mean potential annual energy (WH/m2) per building (found using Zonal Statistics) was multiplied by the building area to get the mean energy produced per building (WH)
+Figure 3 shows the workflow used. It is primarily based on ESRI’s Estimate Solar Power Potential guide (Khanna, 2024). From this workflow we can calculate the average annual energy per building and the categorise the buildings into decile rankings.
