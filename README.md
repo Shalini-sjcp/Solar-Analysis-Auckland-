@@ -4,3 +4,4 @@ New Zealand is a country that primarily uses renewable sources most of its elect
 ## Introduction
 The target areas identified for this project are the Auckland Airport Industrial zone, Manukau, East Tāmaki, and Ōtāhuhu. Figure 1 shows the chosen priority areas along with the polygon feature class containing the footprints of the buildings taken from Land Information New Zealand (LINZ) aerial imagery in and around the areas.
 
+![Map showing the target areas with building footprints overlaid.](figures-report/priorityareas-nbkgd.png)
