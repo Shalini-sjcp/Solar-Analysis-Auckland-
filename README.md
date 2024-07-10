@@ -83,3 +83,18 @@ While this workflow can mostly be automated the initial georeferencing from the 
 
 ## Recommedations
 Following the primary analysis workflow, key areas for development was identified above. The Airport area is the most ideal area to begin. From here the next step would be to use the roof pitch and orientation to simulate and maximise solar panel placement. Use of the fishnet tool and a roof slope raster would potential method.
+
+## References
+Caleb1987. (2014, 03 28). Create fishnet with row iterator - why does extent not update? Retrieved from ESRI Community - Geoprocessing Questions: https://community.esri.com/t5/geoprocessing-questions/create-fishnet-with-row-iterator-why-does-extent/td-p/306377
+
+ESRI. (2024, 04 18). Modelling Solar Radiation. Retrieved from ESRI ArcGIS Pro: https://pro.arcgis.com/en/pro-app/latest/tool-reference/spatial-analyst/modeling-solar-radiation.htm
+
+Hammond, J. (2022, 01 11). Can You Put Solar Panels Under Power Lines? (Explained). Retrieved from Solar For Energy: https://www.solar-for-energy.com/can-you-put-solar-panels-under-power-lines/
+
+Khanna, D. (2024, 5 31). Estimate solar power potential. Retrieved from ESRI Tutorials: https://learn.arcgis.com/en/projects/estimate-solar-power-potential/#map-solar-energy
+
+MBIE. (2023, August 9). Solar Power. Retrieved from Building Performance: https://www.building.govt.nz/getting-started/smarter-homes-guides/power-lighting-and-energy-saving/solar-power
+
+Soares, P. (2023). New Zealand Wind and Solar Generation Scenarios. Electricity Authority Te Mana Hiko.
+
+
