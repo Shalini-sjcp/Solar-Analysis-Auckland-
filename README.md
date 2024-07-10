@@ -81,5 +81,5 @@ Following the criteria given by Auckland Council, the best candidates for solar 
 
 While this workflow can mostly be automated the initial georeferencing from the MAPS Priority Areas must be done manually for any new areas. Additionally, the decile ranking is done by exporting to an excel file, ranking each building by sorting by electricity produced and joining this column back to the buildings dataset. Though this part could also be automated by creating a python script to use in the model. By making the inputs to the raster tool Con, the criteria for slope and aspect can be added as parameters allowing this to be specified as well.
 
-# Recommedations
+## Recommedations
 Following the primary analysis workflow, key areas for development was identified above. The Airport area is the most ideal area to begin. From here the next step would be to use the roof pitch and orientation to simulate and maximise solar panel placement. Use of the fishnet tool and a roof slope raster would potential method.
