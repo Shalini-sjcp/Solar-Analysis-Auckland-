@@ -73,6 +73,7 @@ The majority of buildings are in East Tāmaki so the majority count in each of t
 |  |  |
 |---|---|
 | ![](figures-report/building_count_top_30.png) | ![](figures-report/decilesummary.png) |
+
 ![](figures-report/DistributionoftopbuildingsinMAPS.png)
 
 ## Discussion
